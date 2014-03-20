@@ -38,6 +38,13 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
+        
+        PASS(@"Attention!!!");
+        NSLog(@"\n\nThere is nothing important happening when you run the project, but rather there are Tests that can be run. Simply press Cmd+U."
+              @"\n\nThen check out the NSMutableArray+ESMutableArrayInsertion.h header file."
+              @"\n\n");
+        
+        /*
         //setenv("XcodeColors", "YES", 0);
         
         NSMutableArray *numDicts = [NSMutableArray new];
@@ -182,6 +189,7 @@ int main(int argc, const char * argv[])
             PASS(@"PASS");
             NSLog(@"Exception raised: %@", exception);
         }
+         */
     }
     return 0;
 }
