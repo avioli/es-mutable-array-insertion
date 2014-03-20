@@ -10,7 +10,23 @@
 		2528962818DA48C800ABFF7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2528962718DA48C800ABFF7E /* Foundation.framework */; };
 		2528962B18DA48C800ABFF7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528962A18DA48C800ABFF7E /* main.m */; };
 		2528962F18DA48C800ABFF7E /* arrayMerge.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2528962E18DA48C800ABFF7E /* arrayMerge.1 */; };
+		2528963718DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528963618DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m */; };
+		2528963E18DA8CEB00ABFF7E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2528963D18DA8CEB00ABFF7E /* XCTest.framework */; };
+		2528964418DA8CEB00ABFF7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2528964218DA8CEB00ABFF7E /* InfoPlist.strings */; };
+		2528964618DA8CEB00ABFF7E /* arrayMerge_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528964518DA8CEB00ABFF7E /* arrayMerge_Tests.m */; };
+		2528964D18DA8FD900ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528963618DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m */; };
+		2528965018DAAB3C00ABFF7E /* ESCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528964F18DAAB3C00ABFF7E /* ESCustomObject.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2528964818DA8CEB00ABFF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2528961C18DA48C800ABFF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2528962318DA48C800ABFF7E;
+			remoteInfo = arrayMerge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2528962218DA48C800ABFF7E /* CopyFiles */ = {
@@ -31,6 +47,16 @@
 		2528962A18DA48C800ABFF7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2528962D18DA48C800ABFF7E /* arrayMerge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arrayMerge-Prefix.pch"; sourceTree = "<group>"; };
 		2528962E18DA48C800ABFF7E /* arrayMerge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = arrayMerge.1; sourceTree = "<group>"; };
+		2528963518DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ESMutableArrayInsertion.h"; sourceTree = "<group>"; };
+		2528963618DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ESMutableArrayInsertion.m"; sourceTree = "<group>"; };
+		2528963C18DA8CEB00ABFF7E /* arrayMerge Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arrayMerge Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2528963D18DA8CEB00ABFF7E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2528964118DA8CEB00ABFF7E /* arrayMerge Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arrayMerge Tests-Info.plist"; sourceTree = "<group>"; };
+		2528964318DA8CEB00ABFF7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2528964518DA8CEB00ABFF7E /* arrayMerge_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arrayMerge_Tests.m; sourceTree = "<group>"; };
+		2528964718DA8CEB00ABFF7E /* arrayMerge Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arrayMerge Tests-Prefix.pch"; sourceTree = "<group>"; };
+		2528964E18DAAB3C00ABFF7E /* ESCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCustomObject.h; sourceTree = "<group>"; };
+		2528964F18DAAB3C00ABFF7E /* ESCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCustomObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +68,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2528963918DA8CEA00ABFF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2528963E18DA8CEB00ABFF7E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2528962918DA48C800ABFF7E /* arrayMerge */,
+				2528963F18DA8CEB00ABFF7E /* arrayMerge Tests */,
 				2528962618DA48C800ABFF7E /* Frameworks */,
 				2528962518DA48C800ABFF7E /* Products */,
 			);
@@ -58,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				2528962418DA48C800ABFF7E /* arrayMerge */,
+				2528963C18DA8CEB00ABFF7E /* arrayMerge Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2528962718DA48C800ABFF7E /* Foundation.framework */,
+				2528963D18DA8CEB00ABFF7E /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +113,8 @@
 				2528962A18DA48C800ABFF7E /* main.m */,
 				2528962E18DA48C800ABFF7E /* arrayMerge.1 */,
 				2528962C18DA48C800ABFF7E /* Supporting Files */,
+				2528963518DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.h */,
+				2528963618DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m */,
 			);
 			path = arrayMerge;
 			sourceTree = "<group>";
@@ -84,6 +123,27 @@
 			isa = PBXGroup;
 			children = (
 				2528962D18DA48C800ABFF7E /* arrayMerge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2528963F18DA8CEB00ABFF7E /* arrayMerge Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2528964518DA8CEB00ABFF7E /* arrayMerge_Tests.m */,
+				2528964018DA8CEB00ABFF7E /* Supporting Files */,
+				2528964E18DAAB3C00ABFF7E /* ESCustomObject.h */,
+				2528964F18DAAB3C00ABFF7E /* ESCustomObject.m */,
+			);
+			path = "arrayMerge Tests";
+			sourceTree = "<group>";
+		};
+		2528964018DA8CEB00ABFF7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2528964118DA8CEB00ABFF7E /* arrayMerge Tests-Info.plist */,
+				2528964218DA8CEB00ABFF7E /* InfoPlist.strings */,
+				2528964718DA8CEB00ABFF7E /* arrayMerge Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +168,24 @@
 			productReference = 2528962418DA48C800ABFF7E /* arrayMerge */;
 			productType = "com.apple.product-type.tool";
 		};
+		2528963B18DA8CEA00ABFF7E /* arrayMerge Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2528964A18DA8CEB00ABFF7E /* Build configuration list for PBXNativeTarget "arrayMerge Tests" */;
+			buildPhases = (
+				2528963818DA8CEA00ABFF7E /* Sources */,
+				2528963918DA8CEA00ABFF7E /* Frameworks */,
+				2528963A18DA8CEA00ABFF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2528964918DA8CEB00ABFF7E /* PBXTargetDependency */,
+			);
+			name = "arrayMerge Tests";
+			productName = "arrayMerge Tests";
+			productReference = 2528963C18DA8CEB00ABFF7E /* arrayMerge Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +194,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Ionata;
+				TargetAttributes = {
+					2528963B18DA8CEA00ABFF7E = {
+						TestTargetID = 2528962318DA48C800ABFF7E;
+					};
+				};
 			};
 			buildConfigurationList = 2528961F18DA48C800ABFF7E /* Build configuration list for PBXProject "arrayMerge" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,9 +213,21 @@
 			projectRoot = "";
 			targets = (
 				2528962318DA48C800ABFF7E /* arrayMerge */,
+				2528963B18DA8CEA00ABFF7E /* arrayMerge Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2528963A18DA8CEA00ABFF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2528964418DA8CEB00ABFF7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2528962018DA48C800ABFF7E /* Sources */ = {
@@ -140,10 +235,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				2528962B18DA48C800ABFF7E /* main.m in Sources */,
+				2528963718DA7DDC00ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2528963818DA8CEA00ABFF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2528965018DAAB3C00ABFF7E /* ESCustomObject.m in Sources */,
+				2528964D18DA8FD900ABFF7E /* NSMutableArray+ESMutableArrayInsertion.m in Sources */,
+				2528964618DA8CEB00ABFF7E /* arrayMerge_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2528964918DA8CEB00ABFF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2528962318DA48C800ABFF7E /* arrayMerge */;
+			targetProxy = 2528964818DA8CEB00ABFF7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2528964218DA8CEB00ABFF7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2528964318DA8CEB00ABFF7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2528963018DA48C800ABFF7E /* Debug */ = {
@@ -234,6 +359,40 @@
 			};
 			name = Release;
 		};
+		2528964B18DA8CEB00ABFF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arrayMerge Tests/arrayMerge Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "arrayMerge Tests/arrayMerge Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2528964C18DA8CEB00ABFF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arrayMerge Tests/arrayMerge Tests-Prefix.pch";
+				INFOPLIST_FILE = "arrayMerge Tests/arrayMerge Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -251,6 +410,14 @@
 			buildConfigurations = (
 				2528963318DA48C800ABFF7E /* Debug */,
 				2528963418DA48C800ABFF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2528964A18DA8CEB00ABFF7E /* Build configuration list for PBXNativeTarget "arrayMerge Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2528964B18DA8CEB00ABFF7E /* Debug */,
+				2528964C18DA8CEB00ABFF7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

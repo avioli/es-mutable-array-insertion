@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2528963B18DA8CEA00ABFF7E"
+               BuildableName = "arrayMerge Tests.xctest"
+               BlueprintName = "arrayMerge Tests"
+               ReferencedContainer = "container:arrayMerge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
