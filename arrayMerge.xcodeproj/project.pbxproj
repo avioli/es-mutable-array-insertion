@@ -26,6 +26,7 @@
 		2528964718DA8CEB00ABFF7E /* arrayMerge Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arrayMerge Tests-Prefix.pch"; sourceTree = "<group>"; };
 		2528964E18DAAB3C00ABFF7E /* ESCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCustomObject.h; sourceTree = "<group>"; };
 		2528964F18DAAB3C00ABFF7E /* ESCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCustomObject.m; sourceTree = "<group>"; };
+		2528965218DAC44400ABFF7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 		2528961B18DA48C800ABFF7E = {
 			isa = PBXGroup;
 			children = (
+				2528965218DAC44400ABFF7E /* README.md */,
 				2528965118DAC37D00ABFF7E /* Category */,
 				2528963F18DA8CEB00ABFF7E /* arrayMerge Tests */,
 				2528962618DA48C800ABFF7E /* Frameworks */,
